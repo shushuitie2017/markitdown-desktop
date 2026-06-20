@@ -5,3 +5,8 @@ venv/
 build/
 *.zip
 servers.json
+
+# claude-flow: 凭据与本地设置不入库
+.claude/settings.local.json
+*.pem
+credentials.*
